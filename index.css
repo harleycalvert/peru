@@ -1,0 +1,104 @@
+/* Mobile First View: */
+
+aside {
+	background: white;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+/* Style the links in the aside section */
+aside a:link {
+	color: black;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+/* Style the links in the aside section */
+aside a:visited {
+	color: black;
+	text-decoration: none;
+	}
+
+/* Change the color of aside links on hover */
+aside a:hover {
+	background-color: black;
+	color: white;
+}
+
+
+article {
+	background-color: black;
+	color: #f2f2f2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	padding: 10px 10px 10px 10px;
+}
+
+article a {
+	color: #f2f2f2;
+}
+
+#main_image {
+	width: 100%;
+}
+
+
+
+
+
+
+ /* For tablets: */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+
+
+
+
+
+
+
+ /* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	div {
+		display: flex;
+	}
+
+	aside {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		float: left;
+		justify-content: center;
+		width: 30%;
+	}
+
+	aside a {
+		width: 100%;
+	}
+
+	section {
+		display: inline;
+		float: right;
+		width: 70%;
+	}
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}

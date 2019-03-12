@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+#about_image {
+	max-width: 100%;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

@@ -1,0 +1,51 @@
+/* Mobile First View: */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: Arial;
+	margin: 0;
+}
+
+footer {
+	background: white;
+	display: inline-block;
+	padding: 32px;
+	text-align: center;
+	width: 100%;
+}
+
+footer a {
+	color: black;
+}
+
+
+
+
+
+ /* For tablets: */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+
+
+
+
+ /* For desktop: */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

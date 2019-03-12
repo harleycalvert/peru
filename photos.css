@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+/* Photo Grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+
+.column {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.grid_image {
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+/* For mobile phones: */
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+
+
+
+
+
+ /* For tablets: */
+@media only screen and (min-width: 600px) {
+
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+
+}
+
+
+
+
+
+ /* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.column {
+		flex: 25%;
+		max-width: 25%;
+	}
+}
